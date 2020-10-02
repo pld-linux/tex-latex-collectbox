@@ -2,7 +2,7 @@ Summary:	Macros to collect and process an macro argument as horizontal box
 Summary(pl.UTF-8):	Makra do zbierania i przetwarzania argumentu makra jako poziomego pola
 Name:		tex-latex-collectbox
 Version:	0.4b
-Release:	1
+Release:	2
 License:	LaTeX Project Public License v1.3+
 Group:		Applications/Publishing
 Source0:	http://mirrors.ctan.org/macros/latex/contrib/collectbox.zip
@@ -51,7 +51,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-# XXX: move dir to texlive (or other base TeX distribution package)
-%dir %{_datadir}/texmf/doc/latex
 %doc %{_datadir}/texmf/doc/latex/collectbox
 %{_datadir}/texmf/tex/latex/collectbox
